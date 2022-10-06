@@ -3,3 +3,63 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.bg-black{
+    background-color: black;
+    height: calc(100vh - 60px);
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+    color: white;
+    align-items: center;
+    justify-content: right;
+    height: 60px;
+    background-color: black;
+}
+
+.menu-view{
+    padding: 5px;
+    background-color: grey;
+    margin-right: 5px;
+}
+
+/* regole main */
+
+
+.conteiner-flex{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+img{
+    width: 100%;
+}
+
+.user-name{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 5px;
+
+}
+
+.wrapped{
+    width: 200px;
+    position: relative;
+    padding: 5px;
+}
+
+header{
+    
+}
+
